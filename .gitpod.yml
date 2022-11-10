@@ -1,5 +1,5 @@
 tasks:
-  - name: node
+  name: node
   init: node --version
   command: mkdir flutter
   
