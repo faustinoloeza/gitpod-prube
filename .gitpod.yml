@@ -5,3 +5,7 @@ tasks:
   - name: install express
     init: npm install --save express
     command: touch index.js
+
+ports:
+  - port: 3000
+    onOpen: open-preview
