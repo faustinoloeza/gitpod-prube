@@ -1,4 +1,7 @@
 tasks:
-  init: node --version
-  command: mkdir flutter
-  
+  - name: init project
+    init: npm init -y
+    command: echo 'start script'
+  - name: install express
+    init: npm install --save express
+    command: touch index.js
